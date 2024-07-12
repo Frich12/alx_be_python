@@ -19,12 +19,13 @@ match operation:
         print("Invalid operation. Please choose from '+', '-', '*', '/'.")
 
 
-if operation in ['+', '_', '*']:
-    print(f"The result of {num1} {operation} {num2} is {result}.")
-elif operation == '/' :
+if operation in ['+', '-', '*']:
+    print(f"The result is {result}.")
+elif operation == '/':
     if num2 != 0:
-        print(f"The result of {num1} {operation} {num2} is {result}.") 
+        print(f"The result is {result}.")
 else:
-    print("operation not supported or invalid output.")
+    print("Operation not supported or invalid input.")
+
 
               
